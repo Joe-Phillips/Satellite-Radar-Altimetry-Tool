@@ -219,7 +219,7 @@ def altimetry_plot(topography,
     #----------------------------------------------------------------------
 
     satImage = Image.open("s3.png")
-    fig.add_layout_image(dict(source=satImage,xref="x",yref="y",x=-0.16, y=SAT_ALTITUDE*1.05,sizex=0.4, sizey=0.4))
+    fig.add_layout_image(dict(source=satImage,xref="x",yref="y",x=0.03, y=0.945*SAT_ALTITUDE,sizex=0.5, sizey=0.5,xanchor="right", yanchor="bottom"))
 
     #----------------------------------------------------------------------
     # Make frames
@@ -276,7 +276,7 @@ def altimetry_plot(topography,
     fig.frames=frames
     fig.update_layout(updatemenus=updatemenus)
     fig.update_layout(xaxis2=dict(showgrid=False,visible=False,range=[-5,NUM_FRAMES]),yaxis2=dict(showgrid=False,visible=False,range=[0,1.5]))
-    fig.update_layout(xaxis=dict(showgrid=False,visible=False),yaxis=dict(showgrid=False,visible=False))
+    fig.update_layout(xaxis=dict(showgrid=False,visible=False,range=[-1,1]),yaxis=dict(showgrid=False,visible=False,range=[0,4.35]))
     fig.update_layout(dict(plot_bgcolor= "rgba(0, 0, 0, 0)",paper_bgcolor= "rgba(0, 0, 0, 0)"))
     fig.update_layout(height=PLOT_HEIGHT)
 
@@ -311,7 +311,7 @@ def main():
         """, unsafe_allow_html=True
     )
 
-    st.sidebar.title("🌐 About")
+    st.sidebar.title("ðŸŒ About")
     st.sidebar.info(
         """
         This iteractive panel web app is designed to provide an educational tool that helps visualise the complex nauances of satellite radar altimetry.
