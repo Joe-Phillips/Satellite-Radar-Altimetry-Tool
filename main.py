@@ -385,7 +385,6 @@ Once a pulse is emitted from the satellite, the altimeter can only measure the r
 
     range_window = st.slider('Range Window: ', 0.0, 1.0, (0.05, 0.4), step=0.01)
     NUM_RAYS = st.slider('Number of Rays: ', 1, 64, 16)
-    NUM_RAYS += 2 # hotfix
     NOISE_PEAK = st.slider('Noise Peak: ', 0.0, 0.1, 0.01, step=0.01)
     RAY_ANGLE_DROPOFF_MIN = st.slider('Minimum Drop-off with Ray Angle: ', 0.01, 1.0, 0.1, step=0.01)
 
