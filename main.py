@@ -311,7 +311,7 @@ def main():
         """, unsafe_allow_html=True
     )
 
-    st.sidebar.title("ðŸŒ About")
+    st.sidebar.title(":globe_with_meridians: About")
     st.sidebar.info(
         """
         This iteractive panel web app is designed to provide an educational tool that helps visualise the complex nauances of satellite radar altimetry.
