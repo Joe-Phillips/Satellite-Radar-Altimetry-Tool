@@ -298,7 +298,7 @@ def main():
     st.title(APP_TITLE)
 
     st.sidebar.image("lancsLogo.png")
-    st.sidebar.image("CPOMLogo.webp")
+    st.sidebar.image("CPOMLogo.png")
 
     st.sidebar.title(":globe_with_meridians: About")
     st.sidebar.info(
@@ -386,7 +386,7 @@ First try creating an echo for a flat surface by adding **1,1** and clicking **P
 
     PLOT_HEIGHT = 800
     try:
-        st.plotly_chart(altimetry_plot(topography,range_window,NUM_RAYS,ANIMATION_LENGTH,FPS,PULSE_EFFECT_DURATION,NOISE_PEAK,RAY_ANGLE_DROPOFF_MIN,PLOT_HEIGHT=PLOT_HEIGHT), theme="light", use_container_width=True,height=PLOT_HEIGHT,**{"config": dict(displayModeBar=False)})
+        st.plotly_chart(altimetry_plot(topography,range_window,NUM_RAYS,ANIMATION_LENGTH,FPS,PULSE_EFFECT_DURATION,NOISE_PEAK,RAY_ANGLE_DROPOFF_MIN,PLOT_HEIGHT=PLOT_HEIGHT), theme="streamlit", use_container_width=True,height=PLOT_HEIGHT,**{"config": dict(displayModeBar=False)})
     except:
         st.markdown("")
 
