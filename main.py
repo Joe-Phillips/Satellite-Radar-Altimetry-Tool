@@ -297,8 +297,7 @@ def main():
     st.set_page_config(APP_TITLE, page_icon=":satellite:", layout="wide")
     st.title(APP_TITLE)
 
-    lancs_logo = Image.open("https://ires.ubc.ca/files/2019/07/Lancaster-University-Logo.f1ab941e50411da795077bfed5b7e24b291fd1a3.png")
-    st.sidebar.image(lancs_logo)
+    st.sidebar.image("lancsLogo.png")
 
     st.sidebar.title(":globe_with_meridians: About")
     st.sidebar.info(
