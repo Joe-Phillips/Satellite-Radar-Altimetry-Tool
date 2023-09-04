@@ -352,7 +352,7 @@ Once a pulse is emitted from the satellite, the altimeter can only measure the r
         
     st.markdown(
         """
-        ### :toolkit: The Model
+        ### :toolbox: The Model
         
 To help visualise the process by which satellite radar altimetry works, the model below simulates a 2D case for any arbritrary, inputted topography. This is formed of a list of numbers below, and represents the height of the surface, equidistant along the x-axis. 
 
