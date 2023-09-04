@@ -311,6 +311,28 @@ def main():
         """, unsafe_allow_html=True
     )
 
+    st.markdown(
+        """
+        <style>
+            [data-testid=stSidebar] {
+                background-image: url(https://ires.ubc.ca/files/2019/07/Lancaster-University-Logo.f1ab941e50411da795077bfed5b7e24b291fd1a3.png);
+                background-repeat: no-repeat;
+                padding-top: 120px;
+                background-position: 20px 20px;
+            }
+            [data-testid="stSidebarNav"]::before {
+                content: "";
+                margin-left: 20px;
+                margin-top: 20px;
+                font-size: 30px;
+                position: relative;
+                top: 100px;
+            }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
     st.sidebar.title(":globe_with_meridians: About")
     st.sidebar.info(
         """
@@ -331,28 +353,6 @@ def main():
         d.j.hardy@lancaster.ac.uk 
         """
     )
-    
-        st.markdown(
-            """
-            <style>
-                [data-testid=stSidebar] {
-                    background-image: url(https://ires.ubc.ca/files/2019/07/Lancaster-University-Logo.f1ab941e50411da795077bfed5b7e24b291fd1a3.png);
-                    background-repeat: no-repeat;
-                    padding-top: 120px;
-                    background-position: 20px 20px;
-                }
-                [data-testid="stSidebarNav"]::before {
-                    content: "";
-                    margin-left: 20px;
-                    margin-top: 20px;
-                    font-size: 30px;
-                    position: relative;
-                    top: 100px;
-                }
-            </style>
-            """,
-            unsafe_allow_html=True,
-        )
     
     st.markdown(""" <style> .font {
     font-size:20px} 
