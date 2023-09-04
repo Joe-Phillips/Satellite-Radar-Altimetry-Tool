@@ -350,7 +350,7 @@ Once a pulse is emitted from the satellite, the altimeter can only measure the r
         """
         )
         
-    st.markdown("")
+    st.markdown("\n")
         
     st.markdown(
         """
