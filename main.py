@@ -297,9 +297,6 @@ def main():
     st.set_page_config(APP_TITLE, page_icon=":satellite:", layout="wide")
     st.title(APP_TITLE)
 
-    st.sidebar.image("lancsLogo.png")
-    st.sidebar.image("CPOMLogo.png")
-
     st.sidebar.title(":globe_with_meridians: About")
     st.sidebar.info(
         """
@@ -320,6 +317,9 @@ Special thanks to Dom Hardy for help with setting up Streamlit.
 d.j.hardy@lancaster.ac.uk 
         """
     )
+
+    st.sidebar.image("lancsLogo.png")
+    st.sidebar.image("CPOMLogo.png")
 
     st.markdown(
         """
