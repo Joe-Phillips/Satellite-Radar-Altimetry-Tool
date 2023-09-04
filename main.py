@@ -297,20 +297,6 @@ def main():
     st.set_page_config(APP_TITLE, page_icon=":satellite:", layout="wide")
     st.title(APP_TITLE)
 
-    # st.markdown(
-    #     """
-    #     <style>
-    #         [data-testid=stSidebar] [data-testid=stImage]{
-    #             text-align: center;
-    #             display: block;
-    #             margin-left: auto;
-    #             margin-right: auto;
-    #             width: 100%;
-    #         }
-    #     </style>
-    #     """, unsafe_allow_html=True
-    # )
-
     st.markdown(
         """
         <style>
@@ -345,12 +331,12 @@ def main():
         """
         Made by Joe Phillips.
 
-        [![Repo](https://badgen.net/badge/icon/GitHub/green?icon=github&label)](https://github.com/Joe-Phillips) 
-        [![Repo](https://badgen.net/badge/icon/linkedin/blue?icon=linkedin&label)](https://www.linkedin.com/in/joe-b-phillips/)
-        j.phillips5@lancaster.ac.uk
+[![Repo](https://badgen.net/badge/icon/GitHub/green?icon=github&label)](https://github.com/Joe-Phillips) 
+[![Repo](https://badgen.net/badge/icon/linkedin/blue?icon=linkedin&label)](https://www.linkedin.com/in/joe-b-phillips/)
+j.phillips5@lancaster.ac.uk
 
-        Special thanks to Dom Hardy for help with setting up Streamlit. 
-        d.j.hardy@lancaster.ac.uk 
+Special thanks to Dom Hardy for help with setting up Streamlit. 
+d.j.hardy@lancaster.ac.uk 
         """
     )
     
@@ -387,27 +373,12 @@ First try creating an echo for a flat surface by adding **1,1** and clicking **P
         """
         )
 
-    st.markdown(
-    """
-    <style>
-        [data-testid=stSidebar] [data-testid=stImage]{
-            text-align: center;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%;
-        }
-    </style>
-    """ , unsafe_allow_html=True
-    )
-
     #----------------------------------------------------------------------
     # Parameters
     #----------------------------------------------------------------------
 
     st.markdown("""
     ### :wrench: Parameters
-    
     """
     )
 
