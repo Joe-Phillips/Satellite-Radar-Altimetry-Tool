@@ -354,7 +354,7 @@ Once a pulse is emitted from the satellite, the altimeter can only measure the r
         
     st.markdown(
         """
-To run the model, input a list of numbers below, representing the height of topopgraphy equidistant along the x-axis. Any list with length greater than two is allowed, and as input numbers are normalised, any number is acceptable.
+To run the model, input a list of numbers below, representing the height of topography equidistant along the x-axis. Any list with length greater than two is allowed, and as input numbers are normalised, any number is acceptable.
 
 First try creating an echo for a flat surface by adding **1,1** and clicking **Play** below!
 
