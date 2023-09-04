@@ -330,8 +330,9 @@ def main():
         Special thanks to Dom Hardy for help with setting up Streamlit. 
         d.j.hardy@lancaster.ac.uk 
         """
-        
-    st.markdown(
+    )
+    
+        st.markdown(
             """
             <style>
                 [data-testid=stSidebar] {
@@ -352,8 +353,7 @@ def main():
             """,
             unsafe_allow_html=True,
         )
-    )
-
+    
     st.markdown(""" <style> .font {
     font-size:20px} 
     </style> """, unsafe_allow_html=True)
