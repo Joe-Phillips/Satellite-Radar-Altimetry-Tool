@@ -343,7 +343,7 @@ To run the model, press the **PLAY** button below. This emits pulses from the sa
 
 For given topography, any list with length greater than two is allowed, and as input numbers are normalised, any number is acceptable.
 
-First try creating an echo for a flat surface by adding **1,1** and clicking **PLAY** below!
+First try creating an echo for a flat surface by adding **1,1**, presssing **ENTER**, and clicking **PLAY** below!
         """
         )
 
