@@ -331,10 +331,10 @@ def main():
         d.j.hardy@lancaster.ac.uk 
         """
         
-    st.sidebar.markdown(
+    st.markdown(
             """
             <style>
-                [data-testid="stSidebarNav"] {
+                [data-testid=stSidebar] {
                     background-image: url(https://ires.ubc.ca/files/2019/07/Lancaster-University-Logo.f1ab941e50411da795077bfed5b7e24b291fd1a3.png);
                     background-repeat: no-repeat;
                     padding-top: 120px;
