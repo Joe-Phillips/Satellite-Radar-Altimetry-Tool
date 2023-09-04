@@ -279,6 +279,7 @@ def altimetry_plot(topography,
     fig.update_layout(xaxis=dict(showgrid=False,visible=False,range=[-1,1]),yaxis=dict(showgrid=False,visible=False,range=[-0.1,4.35]))
     fig.update_layout(dict(plot_bgcolor= "rgba(0, 0, 0, 0)",paper_bgcolor= "rgba(0, 0, 0, 0)"))
     fig.update_layout(height=PLOT_HEIGHT)
+    fig.update_layout(config=dict(displayModeBar=False))
 
     return fig
 
@@ -403,7 +404,7 @@ First try creating an echo for a flat surface by adding **1,1** and clicking **P
         st.write(":warning: Invalid Input Topography :warning:")
 
     range_window = st.slider('Range Window: ', 0.0, 1.0, (0.0, 0.4), step=0.01)
-    NUM_RAYS = st.slider('Number of Rays: ', 1, 64, 16)
+    NUM_RAYS = st.slider('Number of Rays: ', 16, 64, 16)
     NOISE_PEAK = st.slider('Noise Peak: ', 0.0, 0.1, 0.01, step=0.01)
     RAY_ANGLE_DROPOFF_MIN = st.slider('Minimum Drop-off with Ray Angle: ', 0.01, 1.0, 0.1, step=0.01)
 
