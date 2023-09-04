@@ -298,7 +298,7 @@ def main():
     st.title(APP_TITLE)
 
     st.sidebar.image("lancsLogo.png")
-    st.sidebar.image("CPOMLogo.png")
+    st.sidebar.image("CPOMLogo.webp")
 
     st.sidebar.title(":globe_with_meridians: About")
     st.sidebar.info(
