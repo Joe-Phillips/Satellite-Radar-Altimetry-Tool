@@ -279,7 +279,6 @@ def altimetry_plot(topography,
     fig.update_layout(xaxis=dict(showgrid=False,visible=False,range=[-1,1]),yaxis=dict(showgrid=False,visible=False,range=[-0.1,4.35]))
     fig.update_layout(dict(plot_bgcolor= "rgba(0, 0, 0, 0)",paper_bgcolor= "rgba(0, 0, 0, 0)"))
     fig.update_layout(height=PLOT_HEIGHT)
-    fig.update_layout(config=dict(displayModeBar=False))
 
     return fig
 
@@ -420,7 +419,7 @@ First try creating an echo for a flat surface by adding **1,1** and clicking **P
 
     PLOT_HEIGHT = 800
     try:
-        st.plotly_chart(altimetry_plot(topography,range_window,NUM_RAYS,ANIMATION_LENGTH,FPS,PULSE_EFFECT_DURATION,NOISE_PEAK,RAY_ANGLE_DROPOFF_MIN,PLOT_HEIGHT=PLOT_HEIGHT), theme="streamlit", use_container_width=True,height=PLOT_HEIGHT)
+        st.plotly_chart(altimetry_plot(topography,range_window,NUM_RAYS,ANIMATION_LENGTH,FPS,PULSE_EFFECT_DURATION,NOISE_PEAK,RAY_ANGLE_DROPOFF_MIN,PLOT_HEIGHT=PLOT_HEIGHT), theme="streamlit", use_container_width=True,height=PLOT_HEIGHT,**{‘config’: dict(displayModeBar=False)})
     except:
         st.markdown("")
 
