@@ -297,27 +297,8 @@ def main():
     st.set_page_config(APP_TITLE, page_icon=":satellite:", layout="wide")
     st.title(APP_TITLE)
 
-    st.markdown(
-        """
-        <style>
-            [data-testid=stSidebar] {
-                background-image: url(https://ires.ubc.ca/files/2019/07/Lancaster-University-Logo.f1ab941e50411da795077bfed5b7e24b291fd1a3.png);
-                background-repeat: no-repeat;
-                padding-top: 120px;
-                background-position: 20px 20px;
-            }
-            [data-testid="stSidebarNav"]::before {
-                content: "";
-                margin-left: 20px;
-                margin-top: 20px;
-                font-size: 30px;
-                position: relative;
-                top: 100px;
-            }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
+    lancs_logo = Image.open("https://ires.ubc.ca/files/2019/07/Lancaster-University-Logo.f1ab941e50411da795077bfed5b7e24b291fd1a3.png")
+    st.sidebar.image(lancs_logo)
 
     st.sidebar.title(":globe_with_meridians: About")
     st.sidebar.info(
@@ -340,9 +321,9 @@ d.j.hardy@lancaster.ac.uk
         """
     )
     
-    st.markdown(""" <style> .font {
-    font-size:20px} 
-    </style> """, unsafe_allow_html=True)
+    # st.markdown(""" <style> .font {
+    # font-size:20px} 
+    # </style> """, unsafe_allow_html=True)
 
 
     st.markdown(
@@ -354,7 +335,6 @@ Satellite radar altimetry is a technique used to measure the height of surfaces 
 Reflected echoes are captured in the form of a **waveform** :large_blue_square:, which records the power recieved by the altimeter over time. In general, surface elevation values extracted from the waveform are attributed to the point of closest approach (**POCA** :star:) of the surface to the satellite. These commonly correspond to a point on the foremost peak of the waveform, known as the leading edge. Although there exist many algorithms to automate this process, finding POCA and extracting associated elevation measurements from the waveform becomes more difficult over increasingly complex surfaces.
 
 Once a pulse is emitted from the satellite, the altimeter can only measure the reflected echoes over a limited time window or **range window** :large_green_square:. If the satellite measures the echoes at the wrong time, returns can be missed. This is known as losing track. The size of this range window varies from satellite to satellite, and knowing where to place it can be a non-trivial problem, especially over complex surfaces.
-
         """
         )
         
@@ -369,7 +349,6 @@ To run the model, press the **PLAY** button below. This emits pulses from the sa
 For given topography, any list with length greater than two is allowed, and as input numbers are normalised, any number is acceptable.
 
 First try creating an echo for a flat surface by adding **1,1** and clicking **PLAY** below!
-
         """
         )
 
