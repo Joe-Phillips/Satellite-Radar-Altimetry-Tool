@@ -345,14 +345,14 @@ Satellite radar altimetry is a technique used to measure the height of surfaces 
 
 Reflected echoes are captured in the form of a **waveform** :large_blue_square:, which records the power recieved by the altimeter over time. In general, surface elevation values extracted from the waveform are attributed to the point of closest approach (**POCA** :star:) of the surface to the satellite. These commonly correspond to a point on the foremost peak of the waveform, known as the leading edge. Although there exist many algorithms to automate this process, finding POCA and extracting associated elevation measurements from the waveform becomes more difficult over increasingly complex surfaces.
 
-Once a pulse is emitted from the satellite, the altimeter can only measure the reflected echoes over a limited time window or **range window** :large_green_square:. If the satellite measures the echoes at the wrong time, returns can be missed. This is known as losing track. The size of this range window varies from satellite to satellite, and knowing where to place it can be a non-trivial problem, especially over complex surfaces. 
+Once a pulse is emitted from the satellite, the altimeter can only measure the reflected echoes over a limited time window or **range window** :large_green_square:. If the satellite measures the echoes at the wrong time, returns can be missed. This is known as losing track. The size of this range window varies from satellite to satellite, and knowing where to place it can be a non-trivial problem, especially over complex surfaces.\n 
 
         """
         )
         
     st.markdown(
         """
-To run the model, input a list of numbers below, representing the height of topopgraphy equidistant along the x-axis. Any list with length greater than two is allowed, and as input numbers are normalised, any number is acceptable.
+\nTo run the model, input a list of numbers below, representing the height of topopgraphy equidistant along the x-axis. Any list with length greater than two is allowed, and as input numbers are normalised, any number is acceptable.
 
 First try creating an echo for a flat surface by adding **1,1** and clicking **Play** below!
 
