@@ -298,6 +298,7 @@ def main():
     st.title(APP_TITLE)
 
     st.sidebar.image("lancsLogo.png")
+    st.sidebar.image("CPOMLogo.png")
 
     st.sidebar.title(":globe_with_meridians: About")
     st.sidebar.info(
@@ -319,11 +320,6 @@ Special thanks to Dom Hardy for help with setting up Streamlit.
 d.j.hardy@lancaster.ac.uk 
         """
     )
-    
-    # st.markdown(""" <style> .font {
-    # font-size:20px} 
-    # </style> """, unsafe_allow_html=True)
-
 
     st.markdown(
         """
