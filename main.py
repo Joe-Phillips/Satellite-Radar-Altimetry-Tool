@@ -297,19 +297,19 @@ def main():
     st.set_page_config(APP_TITLE, page_icon=":satellite:", layout="wide")
     st.title(APP_TITLE)
 
-    st.markdown(
-        """
-        <style>
-            [data-testid=stSidebar] [data-testid=stImage]{
-                text-align: center;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 100%;
-            }
-        </style>
-        """, unsafe_allow_html=True
-    )
+    # st.markdown(
+    #     """
+    #     <style>
+    #         [data-testid=stSidebar] [data-testid=stImage]{
+    #             text-align: center;
+    #             display: block;
+    #             margin-left: auto;
+    #             margin-right: auto;
+    #             width: 100%;
+    #         }
+    #     </style>
+    #     """, unsafe_allow_html=True
+    # )
 
     st.markdown(
         """
