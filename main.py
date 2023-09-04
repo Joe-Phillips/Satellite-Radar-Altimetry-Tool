@@ -356,11 +356,11 @@ Once a pulse is emitted from the satellite, the altimeter can only measure the r
         
 To help visualise the process by which satellite radar altimetry works, the model below simulates a 2D case for any arbritrary, inputted topography. This is formed of a list of numbers below, and represents the height of the surface, equidistant along the x-axis. 
 
-To run the model, press the **Play** button below. This emits pulses from the satellite towards the surface, which are then reflected, and subsequently captured by the satellite. On the right, the waveform records the recieved power with respect to time, with the addition of simulated guassian noise. For both the 2D view and the waveform, a range window is also shown, highlighted in green.
+To run the model, press the **PLAY** button below. This emits pulses from the satellite towards the surface, decreasing exponentially in power over emission angle, which are then reflected, and subsequently captured by the satellite. On the right, the waveform records the recieved power with respect to time, with the addition of simulated guassian noise. For both the 2D view and the waveform, a range window is also shown, highlighted in green.
 
 For given topography, any list with length greater than two is allowed, and as input numbers are normalised, any numbers is acceptable.
 
-First try creating an echo for a flat surface by adding **1,1** and clicking **Play** below!
+First try creating an echo for a flat surface by adding **1,1** and clicking **PLAY** below!
 
         """
         )
