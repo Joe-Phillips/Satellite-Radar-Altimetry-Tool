@@ -275,8 +275,8 @@ def altimetry_plot(topography,
 
     fig.frames=frames
     fig.update_layout(updatemenus=updatemenus)
-    fig.update_layout(xaxis2=dict(showgrid=False,visible=False,range=[-5,NUM_FRAMES]),yaxis2=dict(showgrid=False,visible=False,range=[0,1.5]))
-    fig.update_layout(xaxis=dict(showgrid=False,visible=False,range=[-1,1]),yaxis=dict(showgrid=False,visible=False,range=[-0.1,4.35]))
+    fig.update_layout(xaxis2=dict(showgrid=False,visible=False,range=[-5,NUM_FRAMES],fixedrange=True),yaxis2=dict(showgrid=False,visible=False,range=[0,1.5],fixedrange=True))
+    fig.update_layout(xaxis=dict(showgrid=False,visible=False,range=[-1,1],fixedrange=True),yaxis=dict(showgrid=False,visible=False,range=[-0.1,4.35],fixedrange=True))
     fig.update_layout(dict(plot_bgcolor= "rgba(0, 0, 0, 0)",paper_bgcolor= "rgba(0, 0, 0, 0)"))
     fig.update_layout(height=PLOT_HEIGHT)
 
