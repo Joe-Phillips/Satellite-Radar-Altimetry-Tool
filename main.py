@@ -358,7 +358,7 @@ To help visualise the process by which satellite radar altimetry works, the mode
 
 To run the model, press the **Play** button below. This emits pulses from the satellite towards the surface, which are then reflected, and subsequently captured by the satellite. On the right, the waveform records the recieved power with respect to time, with the addition of simulated guassian noise. For both the 2D view and the waveform, a range window is also shown, highlighted in green.
 
-For given topography, any list with length greater than two is allowed, and and as input numbers are normalised, any numbers is acceptable.
+For given topography, any list with length greater than two is allowed, and as input numbers are normalised, any numbers is acceptable.
 
 First try creating an echo for a flat surface by adding **1,1** and clicking **Play** below!
 
