@@ -330,6 +330,28 @@ def main():
         Special thanks to Dom Hardy for help with setting up Streamlit. 
         d.j.hardy@lancaster.ac.uk 
         """
+        
+    st.sidebar.markdown(
+            """
+            <style>
+                [data-testid="stSidebarNav"] {
+                    background-image: url(https://ires.ubc.ca/files/2019/07/Lancaster-University-Logo.f1ab941e50411da795077bfed5b7e24b291fd1a3.png);
+                    background-repeat: no-repeat;
+                    padding-top: 120px;
+                    background-position: 20px 20px;
+                }
+                [data-testid="stSidebarNav"]::before {
+                    content: "";
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    font-size: 30px;
+                    position: relative;
+                    top: 100px;
+                }
+            </style>
+            """,
+            unsafe_allow_html=True,
+        )
     )
 
     st.markdown(""" <style> .font {
