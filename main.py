@@ -368,7 +368,14 @@ Once a pulse is emitted from the satellite, the altimeter can only measure the r
     # Parameters
     #----------------------------------------------------------------------
 
-    st.markdown("### :wrench: Parameters")
+    st.markdown("""
+    ### :wrench: Parameters
+    
+    To run the model, input a list of numbers below, representing the height of topopgraphy equidistant along the x-axis. Any list with length greater than two is allowed, and as input numbers are normalised, any number is acceptable.
+    
+    First try creating an echo for a flat surface by adding **1,1,1** and clicking *Play** below!
+    """
+    )
 
     topography_input = st.text_input("Topography (2 or More Comma-Seperated Numbers): ",placeholder="1,2,3,2,1")
     topography = np.array(topography_input.replace(" ","").split(","))
@@ -383,8 +390,8 @@ Once a pulse is emitted from the satellite, the altimeter can only measure the r
     except:
         st.write(":warning: Invalid Input Topography :warning:")
 
-    range_window = st.slider('Range Window: ', 0.0, 1.0, (0.05, 0.4), step=0.01)
-    NUM_RAYS = st.slider('Number of Rays: ', 16, 64, 16)
+    range_window = st.slider('Range Window: ', 0.0, 1.0, (0.0, 0.4), step=0.01)
+    NUM_RAYS = st.slider('Number of Rays: ', 1, 64, 16)
     NOISE_PEAK = st.slider('Noise Peak: ', 0.0, 0.1, 0.01, step=0.01)
     RAY_ANGLE_DROPOFF_MIN = st.slider('Minimum Drop-off with Ray Angle: ', 0.01, 1.0, 0.1, step=0.01)
 
