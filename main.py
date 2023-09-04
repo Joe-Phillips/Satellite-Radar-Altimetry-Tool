@@ -347,8 +347,9 @@ Reflected echoes are captured in the form of a **waveform** :large_blue_square:,
 
 Once a pulse is emitted from the satellite, the altimeter can only measure the reflected echoes over a limited time window or **range window** :large_green_square:. If the satellite measures the echoes at the wrong time, returns can be missed. This is known as losing track. The size of this range window varies from satellite to satellite, and knowing where to place it can be a non-trivial problem, especially over complex surfaces. 
 
+<br/><br/>
 
-\n\nTo run the model, input a list of numbers below, representing the height of topopgraphy equidistant along the x-axis. Any list with length greater than two is allowed, and as input numbers are normalised, any number is acceptable.
+To run the model, input a list of numbers below, representing the height of topopgraphy equidistant along the x-axis. Any list with length greater than two is allowed, and as input numbers are normalised, any number is acceptable.
 
 First try creating an echo for a flat surface by adding **1,1** and clicking **Play** below!
 
