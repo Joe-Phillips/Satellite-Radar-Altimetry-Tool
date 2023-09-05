@@ -343,7 +343,7 @@ After inputting topography, press the **PLAY** button below to run the model. Th
  
 For given topography, any list with length greater than two is allowed, and as input numbers are normalised, any number is acceptable.
 
-First try creating an echo for a flat surface by adding **1,1**, presssing **ENTER**, and clicking **PLAY** below!
+First try creating an echo for a flat surface by adding **1,1**, pressing **ENTER**, and clicking **PLAY** below!
         """
         )
 
