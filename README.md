@@ -4,7 +4,7 @@ This iteractive panel web app is designed to provide an educational tool that he
 
 Access the Steamlit app [here](https://satellite-radar-altimetry-tool.streamlit.app/)!
 :-
-<br />
+
 Made by Joe Phillips.
 
 [![Repo](https://badgen.net/badge/icon/GitHub/green?icon=github&label)](https://github.com/Joe-Phillips) 
