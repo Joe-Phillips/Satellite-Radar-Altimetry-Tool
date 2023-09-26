@@ -14,7 +14,7 @@ Made by Joe Phillips.
 Special thanks to Dom Hardy for help with setting up Streamlit.
 d.j.hardy@lancaster.ac.uk 
 
-### :satellite: What is Satellite Radar Altimetry?
+## :satellite: What is Satellite Radar Altimetry?
 
 Satellite radar altimetry is a technique used to measure the height of surfaces from space. It works by emitting **radar pulses** 🟠 down from the satellite toward the **surface** 🔲 at the speed of light. These pulses bounce off the surface and return to the satellite. By measuring the time it takes for the pulses to return we can precisely calculate the distance to the surface, known as the range. Since the satellites orbit at a known altitude above the Earth, subtracting the range measurement from the satellite altitude gives the height of the surface below. By taking continuous measurements as it orbits, the satellite builds up a detailed picture of the topography of the surface. Scientists can then use this data to track changes in sea level rise, melting ice sheets, flooding, and other environmental changes.
 
@@ -22,7 +22,7 @@ Reflected echoes are captured in the form of a **waveform** 🟦, which records 
 
 Once a pulse is emitted from the satellite, the altimeter can only measure the reflected echoes over a limited time window or **range window** 🟩. If the satellite measures the echoes at the wrong time, returns can be missed. This is known as losing track. The size of this range window varies from satellite to satellite, and knowing where to place it can be a non-trivial problem, especially over complex surfaces.
 
-### :toolbox: The Model   
+## :toolbox: The Model   
 
 To help visualise the process by which satellite radar altimetry works, the model simulates a 2D case for any arbritrary, inputted topography. This is formed of a list of numbers, and represents the height of the surface, equidistant along the x-axis. 
 
