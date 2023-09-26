@@ -9,7 +9,7 @@ Made by Joe Phillips.
 
 [![Repo](https://badgen.net/badge/icon/GitHub/green?icon=github&label)](https://github.com/Joe-Phillips) 
 [![Repo](https://badgen.net/badge/icon/linkedin/blue?icon=linkedin&label)](https://www.linkedin.com/in/joe-b-phillips/)
-<br>✉️ j.phillips5@lancaster.ac.uk
+&nbsp;✉️ j.phillips5@lancaster.ac.uk
 
 Special thanks to Dom Hardy for help with setting up Streamlit.
 d.j.hardy@lancaster.ac.uk 
