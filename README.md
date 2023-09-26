@@ -12,7 +12,7 @@ Made by Joe Phillips.
 &nbsp;✉️ j.phillips5@lancaster.ac.uk
 
 Special thanks to Dom Hardy for help with setting up Streamlit.
-d.j.hardy@lancaster.ac.uk 
+&nbsp;✉️ d.j.hardy@lancaster.ac.uk 
 
 ## :satellite: What is Satellite Radar Altimetry?
 
