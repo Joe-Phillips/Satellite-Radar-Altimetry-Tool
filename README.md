@@ -4,13 +4,13 @@ This iteractive panel web app is designed to provide an educational tool that he
 
 Access the Steamlit app [here](https://satellite-radar-altimetry-tool.streamlit.app/)!
 
-Made by Joe Phillips.
+*Made by Joe Phillips.*
 
 [![Repo](https://badgen.net/badge/icon/GitHub/green?icon=github&label)](https://github.com/Joe-Phillips) 
 [![Repo](https://badgen.net/badge/icon/linkedin/blue?icon=linkedin&label)](https://www.linkedin.com/in/joe-b-phillips/)
 j.phillips5@lancaster.ac.uk
 
-Special thanks to Dom Hardy for help with setting up Streamlit. 
+*Special thanks to Dom Hardy for help with setting up Streamlit.*
 d.j.hardy@lancaster.ac.uk 
 
 ### :satellite: What is Satellite Radar Altimetry?
