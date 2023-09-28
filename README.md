@@ -1,6 +1,6 @@
 # Satellite-Radar-Altimetry-Tool
 
-This interactive web app is designed to provide an educational tool that helps visualise the complex nauances of satellite radar altimetry. 
+This interactive web app is designed to provide an educational tool that helps visualise the complex nuances of satellite radar altimetry. 
 
 Access the Steamlit app [here](https://satellite-radar-altimetry-tool.streamlit.app/)!
 :-
