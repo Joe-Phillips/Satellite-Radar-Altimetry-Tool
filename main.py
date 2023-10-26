@@ -379,7 +379,7 @@ def altimetry_plot(
         ADDED_END_TIME / ANIMATION_LENGTH
     )
     range_window_plot2 = (
-        np.flip(1 - np.array(range_window)) * WAVEFORM_LENGTH_WITHOUT_ADDED_TIME
+        np.flip(1 - np.array(range_window)) * NUM_FRAMES
     )
 
     # generate initial elements for plot 2
