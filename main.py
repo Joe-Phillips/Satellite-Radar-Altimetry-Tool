@@ -669,7 +669,7 @@ First try creating an echo for a flat surface by adding **1,1**, presssing **ENT
     try:
         topography = topography.astype("float")
 
-        if len(topography) <= 1 or (topography<0).any():
+        if len(topography) <= 1 or (topography<0).any() or (topography==0).all():
             st.write(":warning: Invalid Input Topography :warning:")
             topography = [""]
 
