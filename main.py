@@ -683,7 +683,7 @@ First try creating an echo for a flat surface by adding **1,1**, presssing **ENT
     NUM_RAYS = st.slider("Number of Rays: ", 16, 64, 16)
     NOISE_PEAK = st.slider("Noise Peak: ", 0.0, 0.1, 0.01, step=0.01)
     RAY_ANGLE_DROPOFF_MIN = st.slider(
-        "Minimum Drop-off with Ray Angle: ", 0.01, 1.0, 0.5, step=0.01
+        "Minimum Drop-off with Ray Angle: ", 0.01, 1.0, 0.1, step=0.01
     )
 
     PULSE_EFFECT_DURATION = (
