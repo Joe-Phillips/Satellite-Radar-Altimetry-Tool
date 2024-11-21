@@ -622,8 +622,8 @@ d.j.hardy@lancaster.ac.uk
         """
     )
 
-    st.sidebar.image("lancsLogo.png")
-    st.sidebar.image("CPOMLogo.png")
+    st.sidebar.image("lancs_logo.png")
+    st.sidebar.image("cpom_logo.png")
 
     st.markdown(
         """
